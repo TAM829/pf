@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+<title id="title">Circuit traces converging toward the central profile</title>
+<desc id="desc">Horizontal circuit bundles enter from the left and right edges and converge toward the central profile. Thick copper-like traces, vias and component pads add detail, while the bottom stays open.</desc>
+<g fill="none" stroke="#a7c2de" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round">
+<path d="M0,8L72,8L110,46L248,46L274,72L418,72"/>
+<path d="M1200,8L1128,8L1090,46L952,46L926,72L782,72"/>
+<path d="M0,14L77,14L115,52L253,52L279,78L418,78"/>
+<path d="M1200,14L1123,14L1085,52L947,52L921,78L782,78"/>
+<path d="M0,20L82,20L120,58L258,58L284,84L418,84"/>
+<path d="M1200,20L1118,20L1080,58L942,58L916,84L782,84"/>
+<path d="M0,26L87,26L125,64L263,64L289,90L418,90"/>
+<path d="M1200,26L1113,26L1075,64L937,64L911,90L782,90"/>
+<path d="M0,32L92,32L130,70L268,70L294,96L418,96"/>
+<path d="M1200,32L1108,32L1070,70L932,70L906,96L782,96"/>
+<path d="M0,38L97,38L135,76L273,76L299,102L418,102"/>
+<path d="M1200,38L1103,38L1065,76L927,76L901,102L782,102"/>
+<path d="M0,44L102,44L140,82L278,82L304,108L418,108"/>
+<path d="M1200,44L1098,44L1060,82L922,82L896,108L782,108"/>
+<path d="M0,50L107,50L145,88L283,88L309,114L418,114"/>
+<path d="M1200,50L1093,50L1055,88L917,88L891,114L782,114"/>
+<path d="M0,56L112,56L150,94L288,94L314,120L418,120"/>
+<path d="M1200,56L1088,56L1050,94L912,94L886,120L782,120"/>
+<path d="M172,0L172,9L190,27L306,27L324,45L392,45"/>
+<path d="M1028,0L1028,9L1010,27L894,27L876,45L808,45"/>
+<path d="M178,0L178,14L196,32L312,32L330,50L392,50"/>
+<path d="M1022,0L1022,14L1004,32L888,32L870,50L808,50"/>
+<path d="M184,0L184,19L202,37L318,37L336,55L392,55"/>
+<path d="M1016,0L1016,19L998,37L882,37L864,55L808,55"/>
+<path d="M190,0L190,24L208,42L324,42L342,60L392,60"/>
+<path d="M1010,0L1010,24L992,42L876,42L858,60L808,60"/>
+<path d="M0,70L28,70L42,84L68,84"/>
+<path d="M1200,70L1172,70L1158,84L1132,84"/>
+<path d="M0,126L38,126L52,140L76,140"/>
+<path d="M1200,126L1162,126L1148,140L1124,140"/>
+<path d="M20,178L20,168L32,156"/>
+<path d="M1180,178L1180,168L1168,156"/>
+<path d="M192,156L216,156L228,144L266,144"/>
+<path d="M1008,156L984,156L972,144L934,144"/>
+<path d="M298,174L318,174L334,158L390,158"/>
+<path d="M902,174L882,174L866,158L810,158"/>
+<path d="M132,8L132,2"/>
+<path d="M1068,8L1068,2"/>
+<path d="M202,56L202,43"/>
+<path d="M998,56L998,43"/>
+<path d="M352,102L352,116"/>
+<path d="M848,102L848,116"/>
+<path d="M376,84L388,72L404,72"/>
+<path d="M824,84L812,72L796,72"/>
+</g><g fill="none" stroke="#97b6d7" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+<path d="M0,94L34,94L54,114L168,114L184,130L236,130"/>
+<path d="M1200,94L1166,94L1146,114L1032,114L1016,130L964,130"/>
+<path d="M0,153L70,153L88,135L130,135"/>
+<path d="M1200,153L1130,153L1112,135L1070,135"/>
+<path d="M294,0L294,15L316,37L354,37"/>
+<path d="M906,0L906,15L884,37L846,37"/>
+</g><g fill="white" stroke="#8eafd0" stroke-width="1.2">
+<circle cx="418" cy="72" r="1.8"/>
+<circle cx="782" cy="72" r="1.8"/>
+<circle cx="418" cy="78" r="1.8"/>
+<circle cx="782" cy="78" r="1.8"/>
+<circle cx="418" cy="84" r="1.8"/>
+<circle cx="782" cy="84" r="1.8"/>
+<circle cx="418" cy="90" r="1.8"/>
+<circle cx="782" cy="90" r="1.8"/>
+<circle cx="418" cy="96" r="1.8"/>
+<circle cx="782" cy="96" r="1.8"/>
+<circle cx="418" cy="102" r="1.8"/>
+<circle cx="782" cy="102" r="1.8"/>
+<circle cx="418" cy="108" r="1.8"/>
+<circle cx="782" cy="108" r="1.8"/>
+<circle cx="418" cy="114" r="1.8"/>
+<circle cx="782" cy="114" r="1.8"/>
+<circle cx="418" cy="120" r="1.8"/>
+<circle cx="782" cy="120" r="1.8"/>
+<circle cx="392" cy="45" r="2"/>
+<circle cx="808" cy="45" r="2"/>
+<circle cx="392" cy="50" r="2"/>
+<circle cx="808" cy="50" r="2"/>
+<circle cx="392" cy="55" r="2"/>
+<circle cx="808" cy="55" r="2"/>
+<circle cx="392" cy="60" r="2"/>
+<circle cx="808" cy="60" r="2"/>
+<circle cx="236" cy="130" r="5"/>
+<circle cx="236" cy="130" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="964" cy="130" r="5"/>
+<circle cx="964" cy="130" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="130" cy="135" r="5"/>
+<circle cx="130" cy="135" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="1070" cy="135" r="5"/>
+<circle cx="1070" cy="135" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="354" cy="37" r="5"/>
+<circle cx="354" cy="37" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="846" cy="37" r="5"/>
+<circle cx="846" cy="37" r="1.4" fill="#adc7e1" stroke="none"/>
+<circle cx="68" cy="84" r="2.7"/>
+<circle cx="68" cy="84" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="1132" cy="84" r="2.7"/>
+<circle cx="1132" cy="84" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="76" cy="140" r="2.7"/>
+<circle cx="76" cy="140" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="1124" cy="140" r="2.7"/>
+<circle cx="1124" cy="140" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="32" cy="156" r="2.7"/>
+<circle cx="32" cy="156" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="1168" cy="156" r="2.7"/>
+<circle cx="1168" cy="156" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="266" cy="144" r="2.7"/>
+<circle cx="266" cy="144" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="934" cy="144" r="2.7"/>
+<circle cx="934" cy="144" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="390" cy="158" r="2.7"/>
+<circle cx="390" cy="158" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="810" cy="158" r="2.7"/>
+<circle cx="810" cy="158" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="132" cy="2" r="2.7"/>
+<circle cx="132" cy="2" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="1068" cy="2" r="2.7"/>
+<circle cx="1068" cy="2" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="202" cy="43" r="2.7"/>
+<circle cx="202" cy="43" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="998" cy="43" r="2.7"/>
+<circle cx="998" cy="43" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="352" cy="116" r="2.7"/>
+<circle cx="352" cy="116" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="848" cy="116" r="2.7"/>
+<circle cx="848" cy="116" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="404" cy="72" r="2.7"/>
+<circle cx="404" cy="72" r="0.8" fill="#adc7e1" stroke="none"/>
+<circle cx="796" cy="72" r="2.7"/>
+<circle cx="796" cy="72" r="0.8" fill="#adc7e1" stroke="none"/>
+</g><g fill="#9cbadb">
+<rect x="422" y="71" width="12" height="2" rx="1"/><rect x="766" y="71" width="12" height="2" rx="1"/>
+<rect x="422" y="77" width="12" height="2" rx="1"/><rect x="766" y="77" width="12" height="2" rx="1"/>
+<rect x="422" y="83" width="12" height="2" rx="1"/><rect x="766" y="83" width="12" height="2" rx="1"/>
+<rect x="422" y="89" width="12" height="2" rx="1"/><rect x="766" y="89" width="12" height="2" rx="1"/>
+<rect x="422" y="95" width="12" height="2" rx="1"/><rect x="766" y="95" width="12" height="2" rx="1"/>
+<rect x="422" y="101" width="12" height="2" rx="1"/><rect x="766" y="101" width="12" height="2" rx="1"/>
+<rect x="422" y="107" width="12" height="2" rx="1"/><rect x="766" y="107" width="12" height="2" rx="1"/>
+<rect x="422" y="113" width="12" height="2" rx="1"/><rect x="766" y="113" width="12" height="2" rx="1"/>
+<rect x="422" y="119" width="12" height="2" rx="1"/><rect x="766" y="119" width="12" height="2" rx="1"/>
+</g><g fill="none" stroke="#bfd2e6" stroke-width="1">
+<path d="M434 54V27H470M730 27H766V54"/>
+<path d="M360,7L416,7L434,25L494,25"/>
+<path d="M840,7L784,7L766,25L706,25"/>
+<path d="M120,173L150,173L164,159"/>
+<path d="M1080,173L1050,173L1036,159"/>
+<path d="M332,140L358,140L370,128L400,128"/>
+<path d="M868,140L842,140L830,128L800,128"/>
+<rect x="96" y="158" width="22" height="10" rx="1"/>
+<path d="M100,155V158M100,168V171"/>
+<path d="M104,155V158M104,168V171"/>
+<path d="M108,155V158M108,168V171"/>
+<path d="M112,155V158M112,168V171"/>
+<rect x="1082" y="158" width="22" height="10" rx="1"/>
+<path d="M1086,155V158M1086,168V171"/>
+<path d="M1090,155V158M1090,168V171"/>
+<path d="M1094,155V158M1094,168V171"/>
+<path d="M1098,155V158M1098,168V171"/>
+<rect x="270" y="6" width="22" height="10" rx="1"/>
+<path d="M274,3V6M274,16V19"/>
+<path d="M278,3V6M278,16V19"/>
+<path d="M282,3V6M282,16V19"/>
+<path d="M286,3V6M286,16V19"/>
+<rect x="908" y="6" width="22" height="10" rx="1"/>
+<path d="M912,3V6M912,16V19"/>
+<path d="M916,3V6M916,16V19"/>
+<path d="M920,3V6M920,16V19"/>
+<path d="M924,3V6M924,16V19"/>
+<circle cx="380" cy="16" r="5"/><circle cx="380" cy="16" r="2.6"/>
+<circle cx="820" cy="16" r="5"/><circle cx="820" cy="16" r="2.6"/>
+<circle cx="174" cy="174" r="5"/><circle cx="174" cy="174" r="2.6"/>
+<circle cx="1026" cy="174" r="5"/><circle cx="1026" cy="174" r="2.6"/>
+</g></svg>

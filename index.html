@@ -1,515 +1,108 @@
-<!DOCTYPE html>
-<html lang="jp">
+<!doctype html>
+<html lang="ja">
 <head>
-<title>HarukaTAM's HP</title>
-<meta charset="utf-8">
-<meta name = "format-detection" content = "telephone=no" />
-<meta name="google-site-verification" content="0HxvxTNTi_p6_diFEawBzDOG3syGB-H7tZ3_H6XSJjg" />
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="css/animation.css">
-<link rel="stylesheet" href="css/camera.css">
-<link rel="stylesheet" href="css/contact-form.css">
-<link rel="stylesheet" href="css/touchTouch.css">
-<link rel="stylesheet" href="css/style.css">
-  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<script src="js/touchTouch.jquery.js"></script>
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/TMForm.js"></script>
-<script src="js/modal.js"></script>
-<script src="js/camera.js"></script>
-<!--[if (gt IE 9)|!(IE)]><!-->
-<script src="js/jquery.mobile.customized.min.js"></script>
-<!--<![endif]-->
-<script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
-  $('.gallery .gall_item').touchTouch();
- });
- $(document).ready(function(){
-     jQuery('#camera_wrap').camera({
-      loader: false,
-      pagination: true ,
-      minHeight: '500',
-      thumbnails: false,
-      height: '48%',
-      caption: true,
-      navigation: false,
-      fx: 'mosaic'
-    });
-    $('.gallery .gall-item').touchTouch();
-  });
-</script>
-<!--[if lt IE 8]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-<![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <title>村田晴香 | 独立研究者</title>
+  <meta name="description" content="独立研究者・村田晴香の自己紹介。AIを用いた共同研究、システム開発、品質保証、個人制作の取り組みを紹介します。">
+  <link rel="canonical" href="https://tam829.github.io/pf/index.html">
+  <link rel="alternate" hreflang="ja" href="https://tam829.github.io/pf/index.html">
+  <link rel="alternate" hreflang="en" href="https://tam829.github.io/pf/en/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://tam829.github.io/pf/index.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="村田晴香 | 独立研究者">
+  <meta property="og:description" content="独立研究者・村田晴香の自己紹介。AIを用いた共同研究、システム開発、品質保証、個人制作の取り組みを紹介します。">
+  <meta property="og:url" content="https://tam829.github.io/pf/index.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:image" content="https://tam829.github.io/pf/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="MURATA Haruka / Independent Researcher。青い亀とネットワーク模様のプロフィール画像。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="村田晴香 | 独立研究者">
+  <meta name="twitter:description" content="独立研究者・村田晴香の自己紹介。AIを用いた共同研究、システム開発、品質保証、個人制作の取り組みを紹介します。">
+  <meta name="twitter:image" content="https://tam829.github.io/pf/assets/og-image.png">
+  <meta name="twitter:image:alt" content="MURATA Haruka / Independent Researcher。青い亀とネットワーク模様のプロフィール画像。">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
 </head>
 <body>
-<div class="texture">
-<!--==============================
-              header
-=================================-->
-<header id="home" class="page">
-  <div class="navigation single-page-nav">
-    <div class="container_12">
-      <div class="grid_12">
-        <h1 class="logo">
-          <a href="index.html"><font size=6px>Haruka MOTOTAKEのホームページ</font></a>
-        </h1>
-
-        <h5><font color = "white">
-        最終更新日：2024/2/7 15:40<font size=2>(JST)</font></font></h5>
-
-        <nav>
-          <ul>
-           <li><a href="#home" class="current"><font size=5px>トップ</font></a></li>
-           <li><a href="#profile"><font size=5px>経歴</font></a></li>
-           <li><a href="#publications"><font size=5px>キャリア</font></a></li>
-           <li><a href="#conference"><font size=5px>制作物</font></a></li>
-           <li><a href="#invited"><font size=5px>スキルリスト</font></a></li>
-           <!--
-           <li><a href="#award"><font size=5px>利用ツール</font></a></li>
-
-           <li><a href="#fund"><font size=5px>hoge5</font></a></li>
-           -->
-           <li><a href="#contacts"><font size=5px>連絡先</font></a></li>
-         </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div id="camera_wrap">
-    <div data-src="images/slide-tam2.png">
-      <!--<div class="caption fadeIn">tamのロゴ画像</div>-->
-    </div>
-    <div data-src="images/tam_qameisi2401_camera.png">
-      <!--<div class="caption fadeIn">tamの名刺画像</div>-->
-    </div>
-    <div data-src="images/bingai_packmansmarge_camera.png">
-    </div>
-      <!--<div class="caption fadeIn">tamの動画パックマン画像</div>-->
-    <div data-src="images/tamskygakufu_marge_camera.png">
-    </div>
-      <!--<div class="caption fadeIn">tamのskygakufu画像</div>-->
-    <div data-src="images/tam_dougacap_camera.png">
-    </div>
-      <!--<div class="caption fadeIn">tamの動画チャンネル画像</div>-->
-    <div data-src="images/page-img_haru1.JPG">
-      <!--<div class="caption fadeIn">tamの回るぞうがめ人形画像</div>-->
-    </div>
+<a class="skip-link" href="#main">本文へ移動</a>
+<header class="site-header" id="home">
+  <div class="container header-grid">
+    <a class="brand" href="#home" aria-label="村田晴香 — トップへ戻る"><img class="turtle brand-turtle" src="assets/turtle.png" alt="" width="256" height="224" decoding="async"><span>村田晴香</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="メニューを開く" data-open-label="メニューを開く" data-close-label="メニューを閉じる" hidden><span class="menu-lines" aria-hidden="true"></span></button>
+    <time class="updated" datetime="2026-10-17">Updated 17-Oct-2026</time>
+    <nav class="language-switch" aria-label="表示言語"><a href="index.html" lang="ja" hreflang="ja" data-language-link aria-current="page">日本語</a><span aria-hidden="true">/</span><a href="en/index.html" lang="en" hreflang="en" data-language-link>EN</a></nav>
+    <nav class="main-navigation" id="main-navigation" aria-label="メインナビゲーション"><ul><li><a href="#profile">プロフィール</a></li><li><a href="#research">研究内容</a></li><li><a href="#experience">経験</a></li><li><a href="#projects">制作・スキル</a></li><li><a href="#contact">連絡先</a></li></ul></nav>
   </div>
 </header>
-<!--=====================
-          Content
-======================-->
-<section id="profile" class="page">
-  <div class="pad-1">
-    <div class="container_12">
-      <div class="grid_12">
-        <h2 class="color2">経歴</h2>
-        <img src="images/tam_qameisi2401.png" alt="" class="fleft">
-        <div class="extra_wrapper">
-			【学歴】
-	        <table>
-        <tr><td>1984年12月</td><td>　京都府京都市にて生まれる</td><td>　</td></tr>
-				<tr><td>2003年3月</td><td>　私立 八洲学園高等学校</td><td>　卒業</td></tr>
-				<tr><td>2003年4月</td><td>　私立 京都産業大学 経営学部 経営学科</td><td>　入学</td></tr>
-				<tr><td>2007年4月</td><td>　私立 京都産業大学 経営学部 経営学科</td><td>　主席卒業</td></tr>
-			　　　</table>
-			<br><br><br>
-			【職歴】
-	        <table>
-				<tr><td>2007年4月-2016年9月<br></td><td>　カルチュア・コンビニエンス・クラブ株式会社</td><td></td></tr>
-				<tr><td class="ta__right" >（9年5ヶ月）<br></td><td><font size=3px>　　店舗社員として店舗運営（主に書店業務）・新店 / 改装企画に従事　<br><br></font></td></tr>
-				<tr><td>2016年10月-2017年3月<br></td><td>　株式会社TSUTAYA</td><td></td></tr>
-				<tr><td class="ta__right" >（5ヶ月）<br></td><td><font size=3px>　　店舗社員として店舗運営（主に書店業務）に従事　<br><br></font></td></tr>
-        <tr><td>2017年8月-2024年1月<br></td><td>　キュレーションズ株式会社</td><td></td></tr>
-        <tr><td class="ta__right" >（6年5ヶ月）<br></td><td><font size=3px>　　情報入力業務、アプリサービスのQA業務に従事　<br><br></font></td></tr>
-        <tr><td>2017年12月-2019年8月<br></td><td>　合同会社Beeプロモーション</td><td></td></tr>
-        <tr><td class="ta__right" >（1年8ヶ月）<br></td><td><font size=3px>　　日本酒・ワイン等の試飲販売業務にスポットで従事　<br><br></font></td></tr>  
-			    </table>
-		
-        </div>
+<main id="main" tabindex="-1">
+  <section class="hero" aria-labelledby="page-title">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="hello" lang="en">HELLO NEW WORLD</p>
+        <p class="role">独立研究者</p>
+        <h1 id="page-title">村田晴香</h1>
+        <p class="roman-name" lang="en">MURATA Haruka</p>
+        <p class="tagline">出会いをきっかけに、まだ知らない世界へ。</p>
+        <p class="intro">店舗運営・企画、アプリの品質保証を経て、現在は銀行の内部利用システム開発に従事。独立研究者として、AIを用いた研究にも取り組んでいます。</p>
+        <a class="text-link hero-link" href="#research">研究内容を見る<svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M16 4v24M9 21l7 7 7-7"/></svg></a>
       </div>
-      <div class="clear"></div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-ground"></div><img class="turtle hero-turtle" src="assets/turtle.png" alt="" width="256" height="224" decoding="async"></div>
     </div>
-  </div>
-<section id="publications" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">キャリア</h2>
-
-
-    <h5>店舗・企画</h5>
-    <table>
-
-
-      <tr><td>5年6ヶ月　</td><td>店舗運営</td></tr>
-      <tr><td></td><td><font size=3px>　3店舗を担当し、基本的な店舗運営業務を習得。<br>　・書店業務（仕入・陳列・返品・販売等）<br>　・アルバイトスタッフの採用・管理・育成<br>　・クレーム対応<br>
-        <br>　関西エリアの直営・フランチャイズ店スタッフへの接客レクチャー
-　　　　</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>2年5ヶ月　</td><td>公共図書館のリプレイス</td></tr>
-      <tr><td></td><td><font size=3px>　会社初の公共図書館リプレイス事業に参加<br>　・図書館エリアのゾーニング / 追加図書選定<br>　・販売書エリアのゾーニング / 商品選定<br>　・司書 / アルバイトの図書館業務レクチャー<br>　・司書 / アルバイトの販売業務レクチャー<br></font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>1年5ヶ月　</td><td>店舗移転オープン</td></tr>
-      <tr><td></td><td><font size=3px>　企画・店舗運営業務<br>　・販売書籍部分のゾーニング<br>　・旧店舗での書店業務運営<br>　・アルバイトスタッフの管理・育成
-      </font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>5ヶ月　</td><td>赤字店舗の改善</td></tr>
-      <tr><td></td><td><font size=3px>　売上UP施策実行と店舗運営<br> 　・販売書籍エリアのゾーニング変更<br> 　・店舗業務運営<br>　・アルバイトスタッフの管理・育成</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-   
-    </table>
-    <br>
-
-
-
-    <h5>Quality Assurance</h5>
-		<table>
-
-
-      <tr><td>4年11ヶ月　</td><td>集客＋健康推進アプリ（iOS/Android/WEB）</td></tr>
-      <tr><td></td><td><font size=3px>　公開済みアプリサービスの機能追加やバグチェック<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>4年6ヶ月　</td><td>電気機器操作アプリ（iOS/Android）</td></tr>
-      <tr><td></td><td><font size=3px>　公開済みアプリサービスの機能追加やバグチェック<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>7ヶ月　</td><td>加速度計測アプリ（iOS/Android）</td></tr>
-      <tr><td></td><td><font size=3px>　公開済みアプリサービスの機能追加やバグチェック<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>1ヶ月　</td><td>API一括管理サービス（WEB）</td></tr>
-      <tr><td></td><td><font size=3px>　公開済みサービスの機能追加動作やバグチェック<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>1ヶ月　</td><td>コミュニケーションアプリ（iOS/Android）</td></tr>
-      <tr><td></td><td><font size=3px>　ローンチ前の正常動作テスト<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>1ヶ月　</td><td>腸活アプリ（iOS/Android）</td></tr>
-      <tr><td></td><td><font size=3px>　ローンチ前の正常動作テスト<br>　・試験評価仕様書作成 <br>　・テスト仕様書に沿ったテストの実施　<br>　・開発エンジニアへのフィードバック<br>　・進捗報告</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-   
-		</table>
-		<br>
-
-    <!--<h5>arxiv</h5>
-    <table>
-
-    </table>
-    <br>-->
-
-<section id="conference" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">制作物</h2>
-		<table>
-
-      <tr><td>2023年12月　</td><td>BingAIにてアニメーション作成／非公開      
-      </td></tr>
-      <tr><td></td><td><font size=3px>　パックマンのような物体10個がランダムに動く<br>　尻尾がついている<br> 　ランダムに動いている間、尻尾が動く<br><br>　　で作ったが尻尾は円に接するように生成、追尾しない、1個だけ左右に微振動する、<br>　　とまだまだ調整が必要だが腹を抱えて笑ったのでお気に入り</td>
-      </font></td></tr>
-      <tr><td></td><td><img src="images/bingai_packmansmarge.png" alt="" class="">　<br></td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>2020年1月-2023年5月　</td><td>アプリゲーム内の楽器対応楽譜（Excel）／公開終了（2023年5月）      
-      </td></tr>
-      <tr><td></td><td><font size=3px>　19作品をExcelにて作成<br>　X（旧Twitter）にて画像配布<br>
-      </font></td></tr>
-      <tr><td></td><td><img src="images/tamskygakufu_tukinohikari.png" alt="" class="">　<img src="images/tamskygakufu_macro.png" alt="" class=""><br></td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>2022年2月-2023年2月　</td><td>ゲーム実況動画／公開中</td></tr>
-      <tr><td></td><td><font size=3px>　Youtubeにて39本公開<br>　インディーサバイバルゲームを生声実況にて撮影<br>　動画編集ソフトを利用し編集<br>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bOB_ZPpCbSY?si=piQw5jwE5_-0oyiI&amp;start=15918" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-      </font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-      <tr><td>2020年　</td><td>ゲームの日本語化プログラム（Python）／非公開</td></tr>
-      <tr><td></td><td><font size=3px>　
-      インディーサバイバルゲームのテキストをGoogle翻訳APIにかけ出力するプログラムを作成</font></td></tr>
-      <tr><td>&nbsp;</td></tr>
-
-
-		</table>
-		<br>
-
-      	<!--<h5>hoge</h5>
-		<table>
-			<tr><td>&nbsp;</td></tr>
-		</table>
-		<br>-->
-
-<!--
-		<h5>hoge</h5>
-		<table>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>&nbsp;</td></tr>
-			<tr><td>hogehoge</td></tr>
-			<br>
-		</table>
--->
-
-		<br>
-    </div>
-
-    <div class="clear"></div>
-  </div>
-</section>
-
-
-
-<section id="invited" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">スキルリスト</h2>
-      <table>
-    <tr><td>OS　</td><td>Windows<br>Mac<br>iOS<br>Android<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>業務支援ソフト　</td><td>Microsoft office<br>（Excel / Word / Power Point）<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>業務スキル　</td><td>テスト計画<br> 会議ファシリテーション<br>アジェンダ・議事録作成<br><br>新人受入 / 教育</br>アルバイト採用</td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>QAスキル　</td><td>テスト計画<br> テスト仕様書作成<br>テスト仕様書に沿ったテスト実施<br>マニュアル作成</td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>プロジェクト管理　</td><td>Redmine<br>Backlog<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>開発支援ツール　</td><td>POSTMAN<br>Github Desktop<br>TestFlight<br>Xcode<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>データベース　</td><td>MySQL Workbench<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>プログラミング　</td><td>Python<br>HTML / CSS<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>生成型AI　</td><td>Bing AI<br>ChatGPT<br><br>Bing image creator from Microsoft Designer<br>Midjourney</td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>コミュニケーションツール　</td><td>Slack<br>Chatwork<br>Discord<br>LINE<br>Messenger<br></td></tr>
-    <tr><td>&nbsp;</td></tr>    
-    <tr><td>動画編集　</td><td>Movavi Video Editor18<br>iMovie<br>Filmora<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr><td>SNS / 動画　</td><td>Facebook<br>X（旧Twitter）<br>Instagram<br>YouTube<br>Twitch<br>OPENREC.tv<br></td></tr>
-    <tr><td>&nbsp;</td></tr>
-
-
-		<br>
-	</table>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-
-
-<!--
-<section id="award" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">利用ツール</h2>
-      <table>
-    <tr><td>ロゴ作成　</td><td><a href="https://www.designevo.com/jp/"  target="_blank">DesignEvo</a><br> </td></tr>
-    <tr><td>&nbsp;</td></tr>
-
-    <tr><td>名刺作成　</td><td><a href="https://www.labelyasan.com/template/item/01_meishi/"  target="_blank">DesignEvo</a><br> </td></tr>
-    <tr><td>&nbsp;</td></tr>
-
-		<tr><td>カラーパレット01　</td></tr>
-		<tr><td><a href="https://colorhunt.co/palette/ffffecf1e4c3c6a969597e52"  target="_blank">#FFFFEC , #F1E4C3 , #C6A969 , #597E52</a></td></tr>
-
-    <tr><td>カラーパレット02　</td></tr>
-    <tr><td><a href="https://color.adobe.com/ja/search?q=technology&page=2"  target="_blank">#95A3BF , #9BABBF , #BABCBF , #D7D8D9 , #F2F2F2</a></td></tr>
-
-    <tr><td>カラーパレット03　</td></tr>
-    <tr><td><a href="https://www.colordic.org/colorscheme/95a3bf"  target="_blank">#95a3bf</a></td></tr>
-
-    <tr><td>カラーパレット04　</td></tr>
-    <tr><td><a href="https://tech-unlimited.com/color.html"  target="_blank">カラーコード変換ツール</a></td></tr>
-
-
-		<tr><td>hoge</td></tr>
-    <tr><td>&nbsp;</td></tr>
-		<br>
-	</table>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
-
-
-<section id="fund" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">hoge</h2>
-    <table>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>&nbsp;</td></tr>
-      <tr><td>hhogehoge</td></tr>
-      <tr><td>hogehoge</td></tr>
-      <tr><td>&nbsp;</td></tr>
-    </table>
-    </div>
-    <div class="clear"></div>
-  </div>
-</section>
--->
-
-<section id="contacts" class="page">
-  <div class="container_12">
-    <div class="grid_12">
-      <h2 class="color2">連絡先</h2>
-    </div>
-      <div class="grid_6">
-        E-mail:mttk.mrt238 -アット- gmail.com<br>
-      </div>
-    <div class="clear"></div>
-  </div>
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="social-icons">
-        <a href="https://www.facebook.com/haruka.murat/" class="fa fa-facebook" target="_blank"></a>
-        <!-- <a href="https://twitter.com/" class="fa fa-twitter"></a> -->
+  </section>
+  <section class="section profile-section" id="profile" aria-labelledby="profile-heading" tabindex="-1">
+    <div class="container"><div class="section-heading"><span class="section-number" aria-hidden="true">01</span><span class="heading-rule" aria-hidden="true"></span><h2 id="profile-heading">プロフィール</h2><span class="section-translation" lang="en">/ Profile</span></div><div class="section-body profile-copy"><p>店舗運営・企画、アプリ・Webサービスの品質保証など、さまざまな現場を経験してきました。現在はSES企業に所属し、銀行の内部利用システム開発に従事しています。</p><p>また、独立研究者として、インタビュー由来のペルソナ情報がLLMの回答に与える影響を研究しています。</p></div></div>
+  </section>
+  <section class="section research-section" id="research" aria-labelledby="research-heading" tabindex="-1">
+    <div class="container">
+      <div class="research-top"><div class="section-heading"><span class="section-number" aria-hidden="true">02</span><span class="heading-rule" aria-hidden="true"></span><h2 id="research-heading">研究内容</h2><span class="section-translation" lang="en">/ Research</span></div><span class="status">研究・検証中</span></div>
+      <div class="research-grid">
+        <div class="research-copy"><h3>ペルソナ情報が、LLMの回答に与える影響</h3><p class="collaboration">一橋大学 本武陽一准教授と共同研究</p><p class="research-summary">科学者の経験や考え方をAIに取り入れ、科学的な問題解決に生かす研究を行っています。インタビューに基づく人物情報を与える場合、同程度の長さのランダムな文章を与える場合、人物情報を与えない場合の3条件を比較しています。論文中の誤った数式を見つける課題に繰り返し回答させ、人物情報がAIの回答傾向に与える影響を検証しています。</p><p class="research-tasks">実験プログラムの整備・回答生成・結果の集計と比較</p></div>
+        <div class="research-wordmark" aria-hidden="true"><span>AI</span><span class="times">×</span><span>Persona</span></div>
       </div>
     </div>
-    <div class="clear"></div>
-  </div>
-</section>
-<!--==============================
-              footer
-=================================-->
-</div>
-<footer id="footer">
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="copyright"> &copy; <span id="copyright-year">2024</span>| <a href="#">© Haruka "TAM829" MOTOTAKE, All Rights Reserved. </a> <br>
-       Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
-      </div>
+  </section>
+  <section class="section experience-section" id="experience" aria-labelledby="experience-heading" tabindex="-1">
+    <div class="container"><div class="section-heading"><span class="section-number" aria-hidden="true">03</span><span class="heading-rule" aria-hidden="true"></span><h2 id="experience-heading">これまでの経験</h2><span class="section-translation" lang="en">/ Experience</span></div><div class="experience-grid"><article class="experience-item"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 13v15h24V13M2 10l4-8h20l4 8M2 10a5 5 0 0 0 9 3 5 5 0 0 0 10 0 5 5 0 0 0 9-3M12 28v-9h8v9"/></svg><div><h3>店舗運営・企画 </h3><p>売場構成、運営改善、スタッフ育成など。</p></div></article><article class="experience-item"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="3" width="22" height="21" rx="1"/><path d="M5 24l-4 5h30l-4-5"/></svg><div><h3>品質保証・テスト </h3><p>テスト仕様書作成、検証、不具合報告、開発者との連携など。</p></div></article><article class="experience-item"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 6L2 16l8 10M22 6l8 10-8 10M19 2l-6 28"/></svg><div><h3>システム開発 <span class="badge">現在</span></h3><p>SES企業に所属し、銀行の内部利用システム開発に従事。</p></div></article></div></div>
+  </section>
+  <section class="section projects-section" id="projects" aria-labelledby="projects-heading" tabindex="-1">
+    <div class="container">
+      <div class="section-heading"><span class="section-number" aria-hidden="true">04</span><span class="heading-rule" aria-hidden="true"></span><h2 id="projects-heading">制作・スキル</h2><span class="section-translation" lang="en">/ Projects &amp; Skills</span></div>
+      <div class="project-grid"><article class="project-item"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M10 6L2 16l8 10M22 6l8 10-8 10M19 2l-6 28"/></svg><div><h3>Pythonによるツール制作</h3><p>作業の自動化やデータの処理・整理など、目的に応じたツールを制作しています。</p></div></article><article class="project-item"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="13"/><path d="M13 10l9 6-9 6z"/></svg><div><h3>楽譜・動画などの個人制作</h3><p>楽譜制作や、ゲーム実況動画の撮影・編集などの個人制作を行ってきました。</p><p class="project-link"><a href="https://www.youtube.com/@zougames7703" target="_blank" rel="noopener noreferrer">ゲーム実況動画（YouTube）<svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M18 4h10v10M28 4L14 18M14 6H5v22h22v-9"/></svg><span class="visually-hidden"> — 新しいタブで開きます</span></a></p></div></article></div>
+      <article class="local-llm"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="2" y="4" width="28" height="24" rx="2"/><path d="M8 11l5 5-5 5M17 22h7"/></svg><div><h3>ローカルLLMの環境構築</h3><p>Windows上にWSLでLinux環境を用意し、Ollama・Open WebUI・Dockerを利用したローカルLLMの実行環境を構築しています。仮想環境やGitHubも利用しています。</p></div></article>
+      <div class="skills-block"><h3>スキル</h3><dl class="skills-list"><div class="skill-row"><dt>言語・データベース</dt><dd><span class="skill">Python</span><span class="skill">VB.NET</span><span class="skill">Oracle SQL</span></dd></div><div class="skill-row"><dt>Web・業務ツール</dt><dd><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">Excel</span></dd></div><div class="skill-row"><dt>品質保証</dt><dd><span class="skill">テスト仕様書作成</span></dd></div><div class="skill-row"><dt>OS・実行環境</dt><dd><span class="skill">Windows</span><span class="skill">Linux</span><span class="skill">WSL</span></dd></div><div class="skill-row"><dt>ローカルLLM</dt><dd><span class="skill">Ollama</span><span class="skill">Open WebUI</span></dd></div><div class="skill-row"><dt>開発環境・ツール</dt><dd><span class="skill">Docker</span><span class="skill">仮想環境</span><span class="skill">GitHub</span></dd></div><div class="skill-row"><dt>AI活用</dt><dd><span class="skill">生成AI活用</span></dd></div></dl></div>
+      <div class="qualification"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="16" cy="12" r="8"/><path d="M10 18l-2 12 8-4 8 4-2-12"/></svg><div><h3>取得資格</h3><p>基本情報技術者試験 合格</p></div></div>
     </div>
+  </section>
+  <section class="section contact-section" id="contact" aria-labelledby="contact-heading" tabindex="-1">
+    <div class="container"><div class="section-heading"><span class="section-number" aria-hidden="true">05</span><span class="heading-rule" aria-hidden="true"></span><h2 id="contact-heading">連絡先</h2><span class="section-translation" lang="en">/ Contact</span></div>
+      <div class="contact-grid"><div class="contact-identity"><p class="role">独立研究者</p><p class="contact-name">村田晴香</p><p class="roman-name" lang="en">MURATA Haruka</p></div>
+      <a class="email" href="mailto:mttk.mrt238@gmail.com"><svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="6" width="26" height="20" rx="1"/><path d="M3 7l13 10L29 7"/></svg><span>mttk.mrt238@gmail.com</span></a>
+      <a class="button" href="mailto:mttk.mrt238@gmail.com">メールを送る<svg class="icon " viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 16h22M20 9l7 7-7 7"/></svg></a></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-content">
+    <img class="turtle footer-turtle" src="assets/turtle.png" alt="" width="256" height="224" decoding="async">
+    <p class="logo-credit" lang="en">Logo created with <a href="https://www.designevo.com/">DesignEvo</a></p>
+    <small>© MURATA Haruka</small>
+    <details class="licenses" id="licenses">
+      <summary>使用素材・ライセンス</summary>
+      <div class="licenses-content">
+        <p>亀のロゴ：<a href="https://www.designevo.com/">DesignEvo</a> / <a href="https://www.designevo.com/terms.html">利用条件</a></p>
+        <p>ネットワーク・回路模様、UIアイコン：本サイト用に作成。</p>
+      </div>
+    </details>
   </div>
-  <div class="clear"></div>
 </footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script>
-  // Prevent console.log from generating errors in IE for the purposes of the demo
-  if ( ! window.console ) console = { log: function(){} };
-  // The actual plugin
-  $('.single-page-nav').singlePageNav({
-      offset: $('.single-page-nav').outerHeight(),
-      filter: ':not(.external)',
-      updateHash: true,
-      beforeStart: function() {
-          console.log('begin scrolling');
-      },
-      onComplete: function() {
-          console.log('done scrolling');
-      }
-  });
-</script>
-
-              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
-      <script src="js/jquery.knob.js"></script>
-<script>
-  $(function($) {
-    $(".knob").knob({
-        change : function (value) {
-            //console.log("change : " + value);
-        },
-        release : function (value) {
-            //console.log(this.$.attr('value'));
-            console.log("release : " + value);
-        },
-        cancel : function () {
-            console.log("cancel : ", this);
-        },
-        /*format : function (value) {
-            return value + '%';
-        },*/
-        draw : function () {
-            // "tron" case
-            if(this.$.data('skin') == 'tron') {
-                this.cursorExt = 0.3;
-                var a = this.arc(this.cv)  // Arc
-                    , pa                   // Previous arc
-                    , r = 1;
-                this.g.lineWidth = this.lineWidth;
-                if (this.o.displayPrevious) {
-                    pa = this.arc(this.v);
-                    this.g.beginPath();
-                    this.g.strokeStyle = this.pColor;
-                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
-                    this.g.stroke();
-                }
-                this.g.beginPath();
-                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
-                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
-                this.g.stroke();
-                this.g.lineWidth = 2;
-                this.g.beginPath();
-                this.g.strokeStyle = this.o.fgColor;
-                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
-                this.g.stroke();
-                return false;
-            }
-        }
-    });
-    // Example of infinite knob, iPod click wheel
-    var v, up=0,down=0,i=0
-        ,$idir = $("div.idir")
-        ,$ival = $("div.ival")
-        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
-        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
-    $("input.infinite").knob(
-                        {
-                        min : 0
-                        , max : 20
-                        , stopper : false
-                        , change : function () {
-                                        if(v > this.cv){
-                                            if(up){
-                                                decr();
-                                                up=0;
-                                            }else{up=1;down=0;}
-                                        } else {
-                                            if(v < this.cv){
-                                                if(down){
-                                                    incr();
-                                                    down=0;
-                                                }else{down=1;up=0;}
-                                            }
-                                        }
-                                        v = this.cv;
-                                    }
-                        });
-    });
-</script>
-<script src="js/isotop_ini.js"></script>
 </body>
 </html>

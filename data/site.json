@@ -1,0 +1,289 @@
+{
+  "site": {
+    "base_url": "https://tam829.github.io/pf/",
+    "updated": "2026-10-17",
+    "name_ja": "村田晴香",
+    "name_en": "MURATA Haruka",
+    "role_ja": "独立研究者",
+    "role_en": "Independent Researcher",
+    "email": "mttk.mrt238@gmail.com",
+    "youtube": "https://www.youtube.com/@zougames7703",
+    "collaborator": {
+      "name": "Yoh-ichi Mototake",
+      "title": "Associate Professor",
+      "school": "Graduate School of Social Data Science",
+      "university": "Hitotsubashi University",
+      "ja": "一橋大学 本武陽一准教授と共同研究"
+    }
+  },
+  "ja": {
+    "description": "独立研究者・村田晴香の自己紹介。AIを用いた共同研究、システム開発、品質保証、個人制作の取り組みを紹介します。",
+    "skip": "本文へ移動",
+    "home": "トップへ戻る",
+    "navigation": "メインナビゲーション",
+    "language": "表示言語",
+    "menu_open": "メニューを開く",
+    "menu_close": "メニューを閉じる",
+    "nav": [
+      "プロフィール",
+      "研究内容",
+      "経験",
+      "制作・スキル",
+      "連絡先"
+    ],
+    "headings": [
+      "プロフィール",
+      "研究内容",
+      "これまでの経験",
+      "制作・スキル",
+      "連絡先"
+    ],
+    "tagline": "出会いをきっかけに、まだ知らない世界へ。",
+    "intro": "店舗運営・企画、アプリの品質保証を経て、現在は銀行の内部利用システム開発に従事。独立研究者として、AIを用いた研究にも取り組んでいます。",
+    "research_link": "研究内容を見る",
+    "profile": [
+      "店舗運営・企画、アプリ・Webサービスの品質保証など、さまざまな現場を経験してきました。現在はSES企業に所属し、銀行の内部利用システム開発に従事しています。",
+      "また、独立研究者として、インタビュー由来のペルソナ情報がLLMの回答に与える影響を研究しています。"
+    ],
+    "research_title": "ペルソナ情報が、LLMの回答に与える影響",
+    "research_summary": "科学者の経験や考え方をAIに取り入れ、科学的な問題解決に生かす研究を行っています。インタビューに基づく人物情報を与える場合、同程度の長さのランダムな文章を与える場合、人物情報を与えない場合の3条件を比較しています。論文中の誤った数式を見つける課題に繰り返し回答させ、人物情報がAIの回答傾向に与える影響を検証しています。",
+    "research_tasks": "実験プログラムの整備・回答生成・結果の集計と比較",
+    "status": "研究・検証中",
+    "current": "現在",
+    "experience": [
+      {
+        "icon": "shop",
+        "title": "店舗運営・企画",
+        "text": "売場構成、運営改善、スタッフ育成など。"
+      },
+      {
+        "icon": "laptop",
+        "title": "品質保証・テスト",
+        "text": "テスト仕様書作成、検証、不具合報告、開発者との連携など。"
+      },
+      {
+        "icon": "code",
+        "title": "システム開発",
+        "text": "SES企業に所属し、銀行の内部利用システム開発に従事。",
+        "current": true
+      }
+    ],
+    "projects": [
+      {
+        "icon": "code",
+        "title": "Pythonによるツール制作",
+        "text": "作業の自動化やデータの処理・整理など、目的に応じたツールを制作しています。"
+      },
+      {
+        "icon": "play",
+        "title": "楽譜・動画などの個人制作",
+        "text": "楽譜制作や、ゲーム実況動画の撮影・編集などの個人制作を行ってきました。",
+        "youtube": true
+      }
+    ],
+    "youtube_label": "ゲーム実況動画（YouTube）",
+    "external_note": "新しいタブで開きます",
+    "local_title": "ローカルLLMの環境構築",
+    "local_text": "Windows上にWSLでLinux環境を用意し、Ollama・Open WebUI・Dockerを利用したローカルLLMの実行環境を構築しています。仮想環境やGitHubも利用しています。",
+    "skills_title": "スキル",
+    "skills": [
+      [
+        "言語・データベース",
+        [
+          "Python",
+          "VB.NET",
+          "Oracle SQL"
+        ]
+      ],
+      [
+        "Web・業務ツール",
+        [
+          "HTML",
+          "CSS",
+          "Excel"
+        ]
+      ],
+      [
+        "品質保証",
+        [
+          "テスト仕様書作成"
+        ]
+      ],
+      [
+        "OS・実行環境",
+        [
+          "Windows",
+          "Linux",
+          "WSL"
+        ]
+      ],
+      [
+        "ローカルLLM",
+        [
+          "Ollama",
+          "Open WebUI"
+        ]
+      ],
+      [
+        "開発環境・ツール",
+        [
+          "Docker",
+          "仮想環境",
+          "GitHub"
+        ]
+      ],
+      [
+        "AI活用",
+        [
+          "生成AI活用"
+        ]
+      ]
+    ],
+    "qualifications": "取得資格",
+    "qualification": "基本情報技術者試験 合格",
+    "contact_button": "メールを送る",
+    "og_alt": "MURATA Haruka / Independent Researcher。青い亀とネットワーク模様のプロフィール画像。",
+    "licenses": {
+      "title": "使用素材・ライセンス",
+      "logo_title": "亀のロゴ",
+      "terms": "利用条件",
+      "art_title": "ネットワーク・回路模様、UIアイコン",
+      "art_text": "本サイト用に作成。"
+    }
+  },
+  "en": {
+    "description": "Personal website of MURATA Haruka, an independent researcher. Explore my collaborative AI research, systems development, quality assurance, and personal projects.",
+    "skip": "Skip to content",
+    "home": "Back to top",
+    "navigation": "Main navigation",
+    "language": "Language",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu",
+    "nav": [
+      "Profile",
+      "Research",
+      "Experience",
+      "Projects & Skills",
+      "Contact"
+    ],
+    "headings": [
+      "Profile",
+      "Research",
+      "Experience",
+      "Projects & Skills",
+      "Contact"
+    ],
+    "tagline": "New encounters, new worlds to explore.",
+    "intro": "With a background in store operations, planning, and app quality assurance, I now develop internal systems for a bank. Alongside my professional work, I conduct AI research as an independent researcher.",
+    "research_link": "Explore my research",
+    "profile": [
+      "My experience spans store operations and planning, as well as quality assurance for apps and web services. I currently work for an IT services company, developing internal systems for a bank.",
+      "As an independent researcher, I also study how interview-derived persona information influences LLM responses."
+    ],
+    "research_title": "How interview-derived persona information influences LLM responses",
+    "research_summary": "My research explores how scientists’ experiences and ways of thinking can be incorporated into AI to support scientific problem-solving. I compare three conditions: providing interview-based persona information, providing random text of a similar length, and providing no persona information. By repeatedly asking AI to identify incorrect equations in a research paper, I examine how persona information influences its response patterns.",
+    "research_tasks": "Experiment code development, response generation, and analysis of response distributions.",
+    "status": "Research in progress",
+    "current": "Current",
+    "experience": [
+      {
+        "icon": "shop",
+        "title": "Store Operations & Planning",
+        "text": "Store layout, operational improvements, and staff training."
+      },
+      {
+        "icon": "laptop",
+        "title": "Quality Assurance & Testing",
+        "text": "Test specification writing, testing, bug reporting, and collaboration with developers."
+      },
+      {
+        "icon": "code",
+        "title": "Systems Development",
+        "text": "Developing internal systems for a bank as an employee of an IT services company.",
+        "current": true
+      }
+    ],
+    "projects": [
+      {
+        "icon": "code",
+        "title": "Python Tools",
+        "text": "Creating tools for task automation, data processing, and organization."
+      },
+      {
+        "icon": "play",
+        "title": "Personal Creative Projects",
+        "text": "Personal projects have included creating musical arrangements and recording and editing gameplay videos.",
+        "youtube": true
+      }
+    ],
+    "youtube_label": "Gameplay Videos (YouTube)",
+    "external_note": "Opens in a new tab",
+    "local_title": "Local LLM Setup",
+    "local_text": "I have set up a Linux environment on Windows using WSL and built a local LLM environment using Ollama, Open WebUI, and Docker. I also use virtual environments and GitHub.",
+    "skills_title": "Skills",
+    "skills": [
+      [
+        "Languages & Databases",
+        [
+          "Python",
+          "VB.NET",
+          "Oracle SQL"
+        ]
+      ],
+      [
+        "Web & Productivity Tools",
+        [
+          "HTML",
+          "CSS",
+          "Excel"
+        ]
+      ],
+      [
+        "Quality Assurance",
+        [
+          "Test Specification Writing"
+        ]
+      ],
+      [
+        "Operating Systems & Runtime",
+        [
+          "Windows",
+          "Linux",
+          "WSL"
+        ]
+      ],
+      [
+        "Local LLMs",
+        [
+          "Ollama",
+          "Open WebUI"
+        ]
+      ],
+      [
+        "Development Tools",
+        [
+          "Docker",
+          "Virtual Environments",
+          "GitHub"
+        ]
+      ],
+      [
+        "AI Tools",
+        [
+          "Generative AI Tools"
+        ]
+      ]
+    ],
+    "qualifications": "Qualifications",
+    "qualification": "Passed the Fundamental Information Technology Engineer Examination (FE).",
+    "contact_button": "Get in touch",
+    "og_alt": "MURATA Haruka / Independent Researcher, with a blue turtle and a subtle network pattern.",
+    "licenses": {
+      "title": "Credits & Licenses",
+      "logo_title": "Turtle logo",
+      "terms": "Terms of use",
+      "art_title": "Network and circuit patterns, UI icons",
+      "art_text": "Created for this website."
+    }
+  }
+}
