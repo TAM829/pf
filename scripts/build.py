@@ -155,7 +155,17 @@ def render(data, lang):
     </div>
   </section>
   <section class="section profile-section" id="profile" aria-labelledby="profile-heading" tabindex="-1">
-    <div class="container">{heading(1)}<div class="section-body profile-copy">{profile}</div></div>
+    <div class="container">
+      {heading(1)}
+      <div class="section-body profile-copy">{profile}</div>
+      <div class="qualification">
+        {icon('award')}
+        <div>
+          <h3>{e(t['awards_title'])}</h3>
+          {''.join(f'<p>{e(item)}</p>' for item in t['awards'])}
+        </div>
+      </div>
+    </div>
   </section>
   <section class="section research-section" id="research" aria-labelledby="research-heading" tabindex="-1">
     <div class="container">
@@ -167,7 +177,10 @@ def render(data, lang):
     </div>
   </section>
   <section class="section experience-section" id="experience" aria-labelledby="experience-heading" tabindex="-1">
-    <div class="container">{heading(3)}<div class="experience-grid">{experience}</div></div>
+        <div class="container">
+      {heading(3)}
+      <div class="experience-grid">{experience}</div>
+    </div>
   </section>
   <section class="section projects-section" id="projects" aria-labelledby="projects-heading" tabindex="-1">
     <div class="container">

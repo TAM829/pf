@@ -141,7 +141,13 @@
       ]
     ],
     "qualifications": "取得資格",
-    "qualification": "基本情報技術者試験 合格",
+    "qualification": "基本情報技術者試験 合格 ／ 日商簿記検定3級 合格",
+    "awards_title": "表彰歴",
+    "awards": [
+      "学部1年次：学業成績上位3位以内として表彰",
+      "学部2・3年次：学業成績上位20位以内として各年表彰",
+      "卒業時：学業成績最優秀者として表彰"
+    ],
     "contact_button": "メールを送る",
     "og_alt": "MURATA Haruka / Independent Researcher。青い亀とネットワーク模様のプロフィール画像。",
     "licenses": {
@@ -277,7 +283,13 @@
       ]
     ],
     "qualifications": "Qualifications",
-    "qualification": "Passed the Fundamental Information Technology Engineer Examination (FE).",
+    "qualification": "Passed the Fundamental Information Technology Engineer Examination (FE) and the Nissho Bookkeeping Test, Grade 3.",
+    "awards_title": "Academic Honors",
+    "awards": [
+      "First undergraduate year: Recognized for academic performance in the top three.",
+      "Second and third undergraduate years: Recognized for academic performance in the top 20 in each year.",
+      "Graduation: Recognized for the highest academic achievement and selected as the faculty’s graduating student representative."
+    ],
     "contact_button": "Get in touch",
     "og_alt": "MURATA Haruka / Independent Researcher, with a blue turtle and a subtle network pattern.",
     "licenses": {
